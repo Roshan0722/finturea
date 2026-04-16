@@ -1,0 +1,246 @@
+.gradient-text{
+background: linear-gradient(90deg, #D3BD00, #14B8A6);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+  
+@media (min-width:1441px) and (max-width:1536px){
+  .hero-line {
+    width: 245px;
+    right: 410px;
+    top: 450px;
+    rotate: 133deg;
+  }
+
+}
+
+@media (max-width: 1440px) {
+  .hero-line {
+    width: 245px;
+    right: 410px;
+    top: 450px;
+    rotate: 133deg;
+  }
+
+}
+
+@media (max-width: 1275px) {
+
+
+    .hero-heading {
+      font-size: 42px;
+      line-height: 1.1;
+    }
+  
+ 
+  
+    .hero-right {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .hero-experience {
+      left: 10px;
+      top: 20%;
+    }
+  
+    .hero-line {
+      width: 245px;
+      right: 390px;
+      top: 375px;
+      rotate: 145deg;
+    }
+  
+    .hero-button {
+      margin-top: 70px;
+      margin-bottom: 60px;
+      padding: 30px 50px;
+    }
+    .hero-bottom-shape{
+      width: 45%;
+    }
+  
+  }
+
+  @media (max-width: 1024px) {
+
+
+    .hero-heading {
+      font-size: 42px;
+      line-height: 1.1;
+    }
+  
+ 
+  
+    .hero-right {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .hero-experience {
+      left: 10px;
+      top: 20%;
+    }
+  
+    .hero-line {
+      width: 225px;
+      right: 320px;
+      top: 395px;
+      rotate: 127deg;
+    }
+  
+    .hero-button {
+      margin-top: 70px;
+      margin-bottom: 60px;
+      padding: 30px 50px;
+    }
+    .hero-bottom-shape{
+      width: 45%;
+    }
+  
+  }
+
+
+
+/* TABLET (768px–1023px) – keep original layout */
+@media (min-width:768px) and (max-width:1023px){
+
+    /* Keep hero in 2 columns like desktop */
+    .hero-grid{
+      grid-template-columns: repeat(2, 1fr);
+      gap:40px;
+    }
+  
+    /* Slightly reduce heading */
+    .hero-heading{
+      font-size:39px;
+      line-height:1.05;
+    }
+
+    .gradient-text{
+        font-size: 10px;
+    }
+
+    .hero-description{
+        font-size: 12px;
+        line-height: 18px;
+    }
+  
+    /* Reduce image size a bit */
+    .hero-image{
+      width:420px;
+    }
+  
+    /* Adjust experience card */
+    .hero-experience{
+      left:10px;
+      top:76%;
+    }
+  
+    /* Hide line if it overflows tablet */
+    .hero-line{
+      display:none;
+    }
+  
+    /* Slightly reduce button padding */
+    .hero-button{
+      padding:25px 50px;
+      font-size: 15px;
+      white-space: nowrap;
+    }
+    
+  }
+
+
+  @media (max-width:767px){
+    .hero-experience{
+      left:45px;
+      top:76%;
+    }
+  }
+  /* ===== 1024px Tablet / Small Laptop ===== */
+
+/* ===== 1024px Laptop ===== */
+
+@media (max-width:1275px){
+
+    .testimonial-container{
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    }
+    
+    .testimonial-heading{
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 15px !important;
+    }
+
+    .testimonial-title{
+        margin-top: 13px;
+        font-size:28px;   /* reduced from ~48px */
+        line-height:1.2;
+      }
+    .testimonial-image{
+    width:260px;
+    height:260px;
+    }
+    
+    .testimonial-heart{
+    left:-15px;
+    top:10px;
+    }
+    
+    .testimonial-connector{
+    display:none;
+    }
+    
+    /* cards alignment */
+    .testimonial-cards{
+    gap:50px;
+    left:50%;
+    transform:translateX(-50%);
+    }
+    
+    .testimonial-text{
+        max-width:280px;
+    }
+
+    .testimonial-para{
+        font-size: 13px;
+    }
+    
+    }
+
+
+
+    /* ===== 1024px Laptop ===== */
+
+@media (max-width:1024px){
+
+    .financial-grid{
+    gap:40px;
+    }
+    
+    .financial-title{
+    font-size:36px;
+    line-height:1.15;
+    }
+    
+    .financial-description{
+    font-size:14px;
+    max-width:300px;
+    }
+    
+    .financial-image{
+    width:300px;
+    height:300px;
+    }
+    
+    .financial-button{
+    padding:10px 20px;
+    }
+    
+    }

@@ -1,0 +1,125 @@
+/* ================= 1024px ================= */
+
+@media (max-width:1024px){
+
+    .contact-heading{
+    font-size:48px;
+    }
+    
+    .contact-phone-card{
+    left:0%;
+    top:70%;
+    }
+    
+    .contact-email-card{
+    right:0%;
+    top:-5%;
+    }
+    
+    .contact-office-card{
+    right:0%;
+    bottom:-60%;
+    max-width:400px;
+    }
+    
+    .contact-form-container{
+    padding-left:40px;
+    padding-right:40px;
+    }
+    
+    }
+    
+    
+    /* ================= TABLETS ================= */
+    
+    @media (max-width:768px){
+    
+    .contact-hero{
+    min-height:460px;
+    padding-top:80px;
+    }
+    
+    .contact-heading{
+    font-size:36px;
+    line-height:1.2;
+    }
+    
+    /* cards become stacked */
+    .contact-card-wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    }
+    
+    /* remove absolute positioning */
+    .contact-phone-card,
+    .contact-email-card,
+    .contact-office-card{
+    position:relative;
+    left:auto;
+    right:auto;
+    top:auto;
+    bottom:auto;
+    max-width:420px;
+    width:100%;
+    }
+    
+    .contact-office-card{
+    max-width:500px;
+    }
+    
+    .contact-form-container{
+    padding-left:30px;
+    padding-right:30px;
+    }
+    
+    }
+    
+    
+    /* ================= MOBILE ================= */
+    
+    @media (max-width:480px){
+    
+    .contact-hero{
+    min-height:380px;
+    padding-top:60px;
+    }
+    
+    .contact-heading{
+    font-size:28px;
+    }
+    
+    .contact-tag{
+    font-size:12px;
+    letter-spacing:2px;
+    }
+    
+    .contact-card-wrapper{
+    gap:16px;
+    }
+    
+    .contact-phone-card,
+    .contact-email-card,
+    .contact-office-card{
+    padding:16px;
+    }
+    
+    .contact-form-container{
+    padding-left:20px;
+    padding-right:20px;
+    }
+    
+    .contact-input,
+    .contact-textarea,
+    .contact-select{
+    font-size:14px;
+    padding:12px;
+    }
+    
+    .contact-submit-btn{
+    padding:18px;
+    font-size:15px;
+    }
+    
+    }

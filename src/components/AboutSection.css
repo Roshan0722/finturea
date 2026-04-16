@@ -1,0 +1,336 @@
+@media (max-width:1275px){
+
+    /* Header spacing */
+    .about-left{
+      gap:80px;
+    }
+  
+    /* Heading smaller */
+    .about-heading{
+      font-size:38px;
+      line-height:1.2;
+    }
+  
+    /* Grid spacing */
+    .about-grid{
+      margin-top:120px;
+      gap:30px;
+    }
+  
+.about-title-h{
+    font-size: 23px;
+}
+
+    /* Image scaling */
+    .about-img1{
+      max-width:320px;
+    }
+  
+    .about-img2{
+      max-width:420px;
+      margin-top: -10px;
+    }
+  
+    .about-img3{
+      max-width:290px;
+    }
+  
+    .about-img4{
+      max-width:300px;
+    }
+  
+    /* Card spacing adjustments */
+    .about-card2{
+      margin-right:-40px;
+      margin-top:0px;
+    }
+
+    .about-card3{
+        margin-top:19px;
+        right: 25px;
+      }
+  
+    .about-card4{
+      margin-top:40px;
+      
+    }
+ 
+    .about-card3-h{
+        font-size: 23px;
+        letter-spacing: 3%;
+       }
+
+    .about-card4-h{
+       font-size: 23px;
+       letter-spacing: 3%;
+      }
+  
+    /* Badge adjustments */
+    .about-card-badge{
+      left:-80px;
+      top: 175px;
+     
+    }
+  
+    .about-card3-badge{
+      left:-95px;
+    }
+  
+  }
+
+
+
+@media (max-width:1024px){
+
+    /* Header spacing */
+    .about-left{
+      gap:80px;
+    }
+  
+    /* Heading smaller */
+    .about-heading{
+      font-size:38px;
+      line-height:1.2;
+    }
+  
+    /* Grid spacing */
+    .about-grid{
+      margin-top:120px;
+      gap:30px;
+    }
+  
+.about-title-h{
+    font-size: 23px;
+}
+
+    /* Image scaling */
+    .about-img1{
+      max-width:320px;
+    }
+  
+    .about-img2{
+      max-width:350px;
+      margin-top: -10px;
+    }
+  
+    .about-img3{
+      max-width:260px;
+    }
+  
+    .about-img4{
+      max-width:360px;
+    }
+  
+    /* Card spacing adjustments */
+    .about-card2{
+      margin-right:-40px;
+      margin-top:0px;
+    }
+
+    .about-card3{
+        margin-top:3px;
+        right: 70px;
+      }
+  
+    .about-card4{
+      margin-top:40px;
+      
+    }
+ 
+    .about-card3-h{
+        font-size: 23px;
+        letter-spacing: 3%;
+       }
+
+    .about-card4-h{
+       font-size: 23px;
+       letter-spacing: 3%;
+      }
+  
+    /* Badge adjustments */
+    .about-card-badge{
+      left:-110px;
+      top: 140px;
+     
+    }
+  
+    .about-card3-badge{
+      left:-95px;
+    }
+  
+  }
+
+/* TABLET (768px–1023px) – keep desktop layout */
+@media (min-width:768px) and (max-width:1023px){
+
+    .about-header{
+        grid-template-columns: repeat(2,1fr);
+        gap:40px;
+      }
+    
+      .about-left{
+        gap:80px;
+      }
+    
+      .about-text{
+        gap:30px;
+      }
+
+      .about-grid{
+        grid-template-columns: repeat(3, 1fr);
+        max-width:900px;
+        margin-top:110px;
+        gap:25px;
+      }
+  
+    .about-img1{
+      max-width:200px;
+      max-height: 200px;
+    }
+
+    .about-title{
+        margin-left: -26px;
+    }
+  
+    .about-img2{
+      max-width:300px;
+    }
+  
+    .about-img3{
+      max-width:170px;
+    }
+  
+    .about-img4{
+      max-width:240px;
+    }
+  
+    .about-card1{
+    max-width:200px;
+    }
+
+    .about-card2{
+        max-width:190px;
+        margin-left: -130px;
+        
+    }
+    .about-card3{
+        top:34px;
+        left: 170px;
+    }
+
+    .about-card3-h{
+        font-size: 18px;
+    }
+
+    .about-card4-h{
+        font-size: 18px;
+    }
+    
+    .about-card-badge{
+        left:-145px;
+       
+      }
+
+    .about-card4{
+        margin-left: 192px;
+    }
+
+    .about-heading{
+      font-size:34px;
+    }
+  
+    .about-heading{
+        font-size:29px;
+      }
+      
+    
+  }
+
+
+  /* MOBILE (below 768px) */
+@media (max-width:767px){
+
+    /* Header layout */
+    .about-header{
+      grid-template-columns:1fr;
+      gap:45px;
+    }
+  
+    .about-left{
+      gap:65px;
+      align-items:flex-start;
+    }
+  
+    .about-heading{
+      font-size:26px;
+      line-height:1.25;
+    }
+  
+    .about-text{
+      gap:0px;
+    }
+
+    .about-description{
+        margin-top: -30px;
+    }
+  
+    /* Grid becomes single column */
+    .about-grid{
+      grid-template-columns:1fr;
+      margin-top:80px;
+      gap:30px;
+      max-width:100%;
+    }
+  
+    /* Remove positioning offsets */
+    .about-card1,
+    .about-card2,
+    .about-card3,
+    .about-card4{
+      margin:0;
+      left:auto;
+      right:auto;
+      top:auto;
+      max-width:100%;
+    }
+  
+    /* Image sizes */
+    .about-img1{
+      max-width:260px;
+    }
+  
+    .about-img2{
+      max-width:260px;
+    }
+  
+    .about-img3{
+      max-width:240px;
+    }
+  
+    .about-img4{
+      max-width:240px;
+    }
+  
+    /* Titles */
+    .about-title-h,
+    .about-card3-h,
+    .about-card4-h{
+      font-size:20px;
+    }
+  
+    /* Badge adjustments */
+    .about-card-badge{
+      left:-10px;
+      top:120px;
+    }
+  
+    .about-card3-badge{
+      left:180px;
+      top: 180px;
+    }
+    .about-card4{
+        margin-left: 60px;
+    }
+
+
+  }

@@ -1,0 +1,186 @@
+
+    /* ======================== */
+    /* 1024 SCREEN */
+    /* ======================== */
+    @media (max-width:1275px){
+    
+        .signup-left{
+        width:55%;
+        padding:40px;
+        }
+        
+        .signup-right{
+        width:45%;
+        }
+         
+        .hero-text-section{
+            margin-top: 35px;
+        }
+    
+        .hero-tag{
+            font-size: 14px;
+        }
+    
+        .hero-title{
+        font-size:33px;
+        }
+        
+      .hero-description {
+        font-size: 13px;
+      }
+    
+        .hero-image{
+        max-width:420px;
+        }
+    
+        .form-container{
+            padding-left: 30px ;
+            padding-right: 30px ;
+        }
+    
+        .hero-badge-left{
+            left: -30px;
+        }
+    
+        .hero-badge-right{
+            right: -30px;
+        }
+        
+        }
+         
+
+
+    @media (max-width:1024px){
+    
+    .signup-left{
+    width:55%;
+    padding:40px;
+    }
+    
+    .signup-right{
+    width:45%;
+    }
+     
+    .hero-text-section{
+        margin-top: 35px;
+    }
+
+    .hero-tag{
+        font-size: 14px;
+    }
+
+    .hero-title{
+    font-size:33px;
+    }
+    
+  .hero-description {
+    font-size: 13px;
+  }
+
+    .hero-image{
+    max-width:420px;
+    }
+
+    .form-container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .hero-badge-left{
+        left: -30px;
+    }
+
+    .hero-badge-right{
+        right: -30px;
+    }
+    
+    }
+    
+    /* ======================== */
+    /* TABLET */
+    /* ======================== */
+    
+    @media (max-width:768px){
+
+        .signup-page{
+        flex-direction:column;
+        }
+        
+        .signup-left{
+        width:100%;
+        padding:40px 30px;
+        }
+        
+        .signup-right{
+        width:100%;
+        }
+        
+        .hero-image{
+        max-width:350px;
+        }
+        
+        .hero-title{
+        font-size:30px;
+        }
+        
+        .form-container{
+        margin:0;
+        border-radius:20px;
+        padding-left: 180px;
+        padding-right: 180px;
+        }
+        .hero-badge-left{
+            left: -70px;
+        }
+    
+        .hero-badge-right{
+            right: -70px;
+        }
+        
+        }
+        
+        
+        /* ===== MOBILE ===== */
+        
+        @media (max-width:480px){
+        
+        .signup-page{
+        flex-direction:column;
+        }
+        
+        .signup-left{
+        width:100%;
+        padding:30px 20px;
+        }
+        
+        .signup-right{
+        width:100%;
+        padding:10px;
+        }
+        
+        .hero-image{
+        max-width:280px;
+        }
+        
+        .hero-title{
+        font-size:26px;
+        }
+        
+        .hero-description{
+        font-size:14px;
+        }
+        
+        .form-container{
+        padding:30px 20px !important;
+        border-radius:15px;
+        }
+        
+        .hero-badge-left{
+            top: 40px;
+        }
+    
+        .hero-badge-right{
+            bottom: -10px;
+        }
+
+        }
