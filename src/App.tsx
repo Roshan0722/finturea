@@ -6,6 +6,7 @@ import Contact from "./screens/Contact";
 import Footer from "./components/Footer";
 import Applynow from "./screens/Applynow";
 import ServiceDetail from "./components/Servicedetail";
+import NotFound from "./screens/NotFound";
  
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
          <Route path="/contact" element={<Contact />} />
          <Route path="/service-detail" element={<ServiceDetail/>} />
+         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
     </>
